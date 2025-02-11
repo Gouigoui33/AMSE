@@ -23,3 +23,7 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/bases.json
+    - assets/images/
+    - assets/images/hdv_icons/
