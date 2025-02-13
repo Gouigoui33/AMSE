@@ -1,22 +1,21 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../providers/favorites_provider.dart';
-import '../widgets/base_item.dart';
+import '../widgets/base_card.dart';
 
 class FavoritesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final favoritesProvider = Provider.of<FavoritesProvider>(context);
-    final favorites = favoritesProvider.favorites;
+    var favoritesProvider = Provider.of<FavoritesProvider>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Bases Likées')),
-      body: favorites.isEmpty
-          ? Center(child: Text("Aucune base likée."))
+      appBar: AppBar(title: Text('Bases likees')),
+      body: favoritesProvider.favorites.isEmpty
+          ? Center(child: Text("Aucune base en favori pour l’instant."))
           : ListView.builder(
-              itemCount: favorites.length,
+              itemCount: favoritesProvider.favorites.length,
               itemBuilder: (context, index) {
-                return BaseItem(base: favorites[index]);
+                return BaseCard(base: favoritesProvider.favorites[index]);
               },
             ),
     );

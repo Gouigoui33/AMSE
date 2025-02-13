@@ -1,4 +1,85 @@
 [
-  {"hdv": 15, "name": "Base War 15", "type": "Guerre", "image": "assets/images/hdv15_base1.png", "date": "2023-06-10"},
-  {"hdv": 14, "name": "Base Farm 14", "type": "Farming", "image": "assets/images/hdv16_base2.png", "date": "2023-07-15"},
+  {"hdv": 3, "name": "base hdv3 n1", "type": "Anti 3 etoiles", "image": "assets/images/hdv3_base1.png", "date": "2025-06"},
+  {"hdv": 3, "name": "base hdv3 n2", "type": "Anti 2 etoiles", "image": "assets/images/hdv3_base2.png", "date": "2024-06"},
+  {"hdv": 3, "name": "base hdv3 n3", "type": "Hybride", "image": "assets/images/hdv3_base3.png", "date": "2023-06"},
+  {"hdv": 3, "name": "base hdv3 n4", "type": "Farming", "image": "assets/images/hdv3_base4.png", "date": "2023-06"},
+  {"hdv": 3, "name": "base hdv3 n5", "type": "Guerre", "image": "assets/images/hdv3_base5.png", "date": "2023-06"},
+  
+  {"hdv": 4, "name": "base hdv4 n1", "type": "Farming", "image": "assets/images/hdv4_base1.png", "date": "2025-01"},
+  {"hdv": 4, "name": "base hdv4 n2", "type": "Guerre", "image": "assets/images/hdv4_base2.png", "date": "2025-01"},
+  {"hdv": 4, "name": "base hdv4 n3", "type": "Guerre", "image": "assets/images/hdv4_base3.png", "date": "2025-01"},
+  {"hdv": 4, "name": "base hdv4 n4", "type": "Hybride", "image": "assets/images/hdv4_base4.png", "date": "2025-01"},
+  {"hdv": 4, "name": "base hdv4 n5", "type": "Farming", "image": "assets/images/hdv4_base5.png", "date": "2025-01"},
+  
+  {"hdv": 5, "name": "base hdv5", "type": "Anti 2 etoiles", "image": "assets/images/hdv5_base1.png", "date": "2025-01"},
+  {"hdv": 5, "name": "base hdv5", "type": "Anti 3 etoiles", "image": "assets/images/hdv5_base2.png", "date": "2025-01"},
+  {"hdv": 5, "name": "base hdv5", "type": "Farming", "image": "assets/images/hdv5_base3.png", "date": "2025-01"},
+  {"hdv": 5, "name": "base hdv5", "type": "Hybride", "image": "assets/images/hdv5_base4.png", "date": "2025-01"},
+  {"hdv": 5, "name": "base hdv5", "type": "Guerre", "image": "assets/images/hdv5_base5.png", "date": "2025-01"},
+  
+  {"hdv": 6, "name": "base hdv6", "type": "Guerre", "image": "assets/images/hdv6_base1.png", "date": "2025-01"},
+  {"hdv": 6, "name": "base hdv6", "type": "Anti 3 etoiles", "image": "assets/images/hdv6_base2.png", "date": "2025-01"},
+  {"hdv": 6, "name": "base hdv6", "type": "Hybride", "image": "assets/images/hdv6_base3.png", "date": "2025-01"},
+  {"hdv": 6, "name": "base hdv6", "type": "Hybride", "image": "assets/images/hdv6_base4.png", "date": "2025-01"},
+  {"hdv": 6, "name": "base hdv6", "type": "Farming", "image": "assets/images/hdv6_base5.png", "date": "2025-01"},
+  
+  {"hdv": 7, "name": "base hdv7", "type": "Anti 2 etoiles", "image": "assets/images/hdv7_base1.png", "date": "2025-01"},
+  {"hdv": 7, "name": "base hdv7", "type": "Anti 3 etoiles", "image": "assets/images/hdv7_base2.png", "date": "2025-01"},
+  {"hdv": 7, "name": "base hdv7", "type": "Farming", "image": "assets/images/hdv7_base3.png", "date": "2025-01"},
+  {"hdv": 7, "name": "base hdv7", "type": "Anti 3 etoiles", "image": "assets/images/hdv7_base4.png", "date": "2025-01"},
+  {"hdv": 7, "name": "base hdv7", "type": "Hybride", "image": "assets/images/hdv7_base5.png", "date": "2025-01"},
+  
+  {"hdv": 8, "name": "base hdv8", "type": "Guerre", "image": "assets/images/hdv8_base1.png", "date": "2025-01"},
+  {"hdv": 8, "name": "base hdv8", "type": "Hybride", "image": "assets/images/hdv8_base2.png", "date": "2025-01"},
+  {"hdv": 8, "name": "base hdv8", "type": "Hybride", "image": "assets/images/hdv8_base3.png", "date": "2025-01"},
+  {"hdv": 8, "name": "base hdv8", "type": "Anti 2 etoiles", "image": "assets/images/hdv8_base4.png", "date": "2025-01"},
+  {"hdv": 8, "name": "base hdv8", "type": "Anti 3 etoiles", "image": "assets/images/hdv8_base5.png", "date": "2025-01"},
+  
+  {"hdv": 9, "name": "base hdv9", "type": "Anti 3 etoiles", "image": "assets/images/hdv9_base1.png", "date": "2025-01"},
+  {"hdv": 9, "name": "base hdv9", "type": "Anti 3 etoiles", "image": "assets/images/hdv9_base2.png", "date": "2025-01"},
+  {"hdv": 9, "name": "base hdv9", "type": "Hybride", "image": "assets/images/hdv9_base3.png", "date": "2025-01"},
+  {"hdv": 9, "name": "base hdv9", "type": "Anti 3 etoiles", "image": "assets/images/hdv9_base4.png", "date": "2025-01"},
+  {"hdv": 9, "name": "base hdv9", "type": "Hybride", "image": "assets/images/hdv9_base5.png", "date": "2025-01"},
+  
+  {"hdv": 10, "name": "base hdv10", "type": "Guerre", "image": "assets/images/hdv10_base1.png", "date": "2025-01"},
+  {"hdv": 10, "name": "base hdv10", "type": "Hybride", "image": "assets/images/hdv10_base2.png", "date": "2025-01"},
+  {"hdv": 10, "name": "base hdv10", "type": "Farming", "image": "assets/images/hdv10_base3.png", "date": "2025-01"},
+  {"hdv": 10, "name": "base hdv10", "type": "Farming", "image": "assets/images/hdv10_base4.png", "date": "2025-01"},
+  {"hdv": 10, "name": "base hdv10", "type": "Hybride", "image": "assets/images/hdv10_base5.png", "date": "2025-01"},
+  
+  {"hdv": 11, "name": "base hdv11", "type": "Farming", "image": "assets/images/hdv11_base1.png", "date": "2025-01"},
+  {"hdv": 11, "name": "base hdv11", "type": "Hybride", "image": "assets/images/hdv11_base2.png", "date": "2025-01"},
+  {"hdv": 11, "name": "base hdv11", "type": "Anti 3 etoiles", "image": "assets/images/hdv11_base3.png", "date": "2025-01"},
+  {"hdv": 11, "name": "base hdv11", "type": "Guerre", "image": "assets/images/hdv11_base4.png", "date": "2025-01"},
+  {"hdv": 11, "name": "base hdv11", "type": "Troll", "image": "assets/images/hdv11_base5.png", "date": "2025-01"},
+  
+  {"hdv": 12, "name": "base hdv12", "type": "Guerre", "image": "assets/images/hdv12_base1.png", "date": "2025-01"},
+  {"hdv": 12, "name": "base hdv12", "type": "Guerre", "image": "assets/images/hdv12_base2.png", "date": "2025-01"},
+  {"hdv": 12, "name": "base hdv12", "type": "Guerre", "image": "assets/images/hdv12_base3.png", "date": "2025-01"},
+  {"hdv": 12, "name": "base hdv12", "type": "Guerre", "image": "assets/images/hdv12_base4.png", "date": "2025-01"},
+  {"hdv": 12, "name": "base hdv12", "type": "Guerre", "image": "assets/images/hdv12_base5.png", "date": "2025-01"},
+  
+  {"hdv": 13, "name": "base hdv13", "type": "Guerre", "image": "assets/images/hdv13_base1.png", "date": "2025-01"},
+  {"hdv": 13, "name": "base hdv13", "type": "Guerre", "image": "assets/images/hdv13_base2.png", "date": "2025-01"},
+  {"hdv": 13, "name": "base hdv13", "type": "Guerre", "image": "assets/images/hdv13_base3.png", "date": "2025-01"},
+  {"hdv": 13, "name": "base hdv13", "type": "Guerre", "image": "assets/images/hdv13_base4.png", "date": "2025-01"},
+  {"hdv": 13, "name": "base hdv13", "type": "Guerre", "image": "assets/images/hdv13_base5.png", "date": "2025-01"},
+  
+  {"hdv": 14, "name": "base hdv14", "type": "Guerre", "image": "assets/images/hdv14_base1.png", "date": "2025-01"},
+  {"hdv": 14, "name": "base hdv14", "type": "Guerre", "image": "assets/images/hdv14_base2.png", "date": "2025-01"},
+  {"hdv": 14, "name": "base hdv14", "type": "Guerre", "image": "assets/images/hdv14_base3.png", "date": "2025-01"},
+  {"hdv": 14, "name": "base hdv14", "type": "Guerre", "image": "assets/images/hdv14_base4.png", "date": "2025-01"},
+  {"hdv": 14, "name": "base hdv14", "type": "Guerre", "image": "assets/images/hdv14_base5.png", "date": "2025-01"},
+  
+  {"hdv": 15, "name": "base hdv15", "type": "Guerre", "image": "assets/images/hdv15_base1.png", "date": "2025-01"},
+  {"hdv": 15, "name": "base hdv15", "type": "Guerre", "image": "assets/images/hdv15_base2.png", "date": "2025-01"},
+  {"hdv": 15, "name": "base hdv15", "type": "Guerre", "image": "assets/images/hdv15_base3.png", "date": "2025-01"},
+  {"hdv": 15, "name": "base hdv15", "type": "Guerre", "image": "assets/images/hdv15_base4.png", "date": "2025-01"},
+  {"hdv": 15, "name": "base hdv15", "type": "Guerre", "image": "assets/images/hdv15_base5.png", "date": "2025-01"},
+  
+  {"hdv": 16, "name": "Base Farm 16", "type": "Farming", "image": "assets/images/hdv16_base1.png", "date": "2023-07-15"},
+  {"hdv": 16, "name": "Base Farm 16", "type": "Farming", "image": "assets/images/hdv16_base2.png", "date": "2023-07-15"},
+  {"hdv": 16, "name": "Base Farm 16", "type": "Farming", "image": "assets/images/hdv16_base3.png", "date": "2023-07-15"},
+  {"hdv": 16, "name": "Base Farm 16", "type": "Farming", "image": "assets/images/hdv16_base4.png", "date": "2023-07-15"},
+  {"hdv": 16, "name": "Base Farm 16", "type": "Farming", "image": "assets/images/hdv16_base5.png", "date": "2023-07-15"}
 ]

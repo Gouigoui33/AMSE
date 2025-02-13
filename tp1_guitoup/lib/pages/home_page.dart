@@ -1,44 +1,48 @@
 import 'package:flutter/material.dart';
-import 'bases_by_hdv_page.dart';
+import 'hdv_page.dart';
+import 'favorites_page.dart';
 
 class HomePage extends StatelessWidget {
-  final List<int> hdvLevels =
-      List.generate(14, (index) => index + 3); // HDV 3 à HDV 16
+  final List<int> hdvLevels = List.generate(14, (index) => index + 3);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Sélectionnez votre HDV')),
+      appBar: AppBar(
+        title: Text('Clash Bases'),
+        actions: [
+          IconButton(
+            icon: Icon(Icons.favorite, color: Colors.red),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => FavoritesPage()),
+              );
+            },
+          ),
+        ],
+      ),
       body: GridView.builder(
+        padding: EdgeInsets.all(10),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-          crossAxisCount: 3, // 3 icônes par ligne
+          crossAxisCount: 3,
           crossAxisSpacing: 10,
           mainAxisSpacing: 10,
         ),
-        padding: EdgeInsets.all(10),
         itemCount: hdvLevels.length,
         itemBuilder: (context, index) {
           int hdv = hdvLevels[index];
-          String imagePath =
-              'assets/images/hdv_icons/hdv$hdv.jpg'; // Chemin de l’image HDV
-
           return GestureDetector(
             onTap: () {
-              // Aller à la page des bases de l'HDV sélectionné
               Navigator.push(
                 context,
-                MaterialPageRoute(
-                    builder: (context) => BasesByHdvPage(hdv: hdv)),
+                MaterialPageRoute(builder: (context) => HdvPage(hdv: hdv)),
               );
             },
             child: Column(
               children: [
-                Image.asset(imagePath,
-                    width: 80, height: 80), // Affiche l’image
-                SizedBox(height: 5),
-                Text("HDV $hdv",
-                    style:
-                        TextStyle(fontSize: 16, fontWeight: FontWeight.bold)),
+                Image.asset('assets/images/hdv_icons/hdv$hdv.jpg', height: 200),
+                Text('HDV $hdv'),
               ],
             ),
           );
