@@ -8,10 +8,9 @@ class FavoritesProvider extends ChangeNotifier {
 
   void toggleFavorite(BaseModel base) {
     if (isFavorite(base)) {
-      _favorites
-          .removeWhere((b) => b.name == base.name); // Supprime si déjà liké
+      _favorites.removeWhere((b) => b.name == base.name);
     } else {
-      _favorites.add(base); // Ajoute si pas encore liké
+      _favorites.add(base);
     }
     notifyListeners();
   }

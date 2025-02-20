@@ -9,13 +9,16 @@ class FavoritesPage extends StatelessWidget {
     var favoritesProvider = Provider.of<FavoritesProvider>(context);
 
     return Scaffold(
-      appBar: AppBar(title: Text('Bases likees')),
+      appBar: AppBar(title: Text('Bases likées')),
       body: favoritesProvider.favorites.isEmpty
           ? Center(child: Text("Aucune base en favori pour l’instant."))
           : ListView.builder(
               itemCount: favoritesProvider.favorites.length,
               itemBuilder: (context, index) {
-                return BaseCard(base: favoritesProvider.favorites[index]);
+                return SizedBox(
+                  height: 500,
+                  child: BaseCard(base: favoritesProvider.favorites[index]),
+                );
               },
             ),
     );

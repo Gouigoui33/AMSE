@@ -19,10 +19,9 @@ class _HdvPageState extends State<HdvPage> {
   @override
   void initState() {
     super.initState();
-    loadBases(); // 🔥 Correction : cette méthode est bien définie
+    loadBases();
   }
 
-  /// Charge les bases depuis le fichier JSON
   Future<void> loadBases() async {
     String jsonString = await rootBundle.loadString('assets/bases.json');
     List<dynamic> jsonData = json.decode(jsonString);
@@ -41,7 +40,14 @@ class _HdvPageState extends State<HdvPage> {
       appBar: AppBar(title: Text('HDV ${widget.hdv}')),
       body: bases.isEmpty
           ? Center(child: CircularProgressIndicator())
-          : ListView.builder(
+          : GridView.builder(
+              padding: EdgeInsets.all(10),
+              gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                crossAxisCount: 2,
+                crossAxisSpacing: 10,
+                mainAxisSpacing: 10,
+                childAspectRatio: 1.2,
+              ),
               itemCount: bases.length,
               itemBuilder: (context, index) {
                 return BaseCard(base: bases[index]);
