@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'hdv_page.dart';
 import 'favorites_page.dart';
+import 'about_page.dart';
 
 class HomePage extends StatelessWidget {
   final List<int> hdvLevels = List.generate(14, (index) => index + 3);
@@ -11,6 +12,15 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text('Clash Bases'),
         actions: [
+          IconButton(
+            icon: Icon(Icons.info),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AboutPage()),
+              );
+            },
+          ),
           IconButton(
             icon: Icon(Icons.favorite, color: Colors.red),
             onPressed: () {
